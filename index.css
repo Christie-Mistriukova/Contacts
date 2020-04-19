@@ -26,7 +26,7 @@ header .headerWrapper .headerMenu ul li { display: flex; list-style: none; paddi
 header .headerWrapper .headerMenu ul li a { color: var(--text-color); }
 
 /*---- ----- ----- ----- -----*/
-.mapWrapper { position: relative; background-image: url('img/Map.png'); background-size: cover; background-repeat: no-repeat; height: calc(100vh - 235px); }
+.mapWrapper { position: relative; background-image: url('img/Map.png'); background-size: cover; background-repeat: no-repeat; height: calc(100vh - 235px); min-height: 710px; }
 .mapWrapper .mapIcon { position: absolute; left: 20%; top: 20%; }
 .mapWrapper .mapIcon:before  { content: ""; display: block; height: 32px; width: 32px; background-size: 32px 32px; background-image: url(img/map_icon_color.svg); background-repeat: no-repeat; }
 .mapWrapper .infoLeft--wrapper { position: absolute;line-height: 24px; padding: 36px 32px 43px; left: 0px; bottom: 0px; background: rgba(255, 255, 255, 0.45); backdrop-filter: blur(8px); border-radius: 0px 8px 0px 0px;  }
